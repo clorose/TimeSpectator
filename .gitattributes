@@ -1,0 +1,8 @@
+# 모든 텍스트 파일에 대해 자동 줄바꿈 정규화를 설정합니다.
+* text=auto
+
+# Python 파일은 항상 LF (Unix-style)로 체크아웃합니다.
+*.py text eol=lf
+
+# Windows 배치 파일은 항상 CRLF로 체크아웃합니다.
+*.bat text eol=crlf
